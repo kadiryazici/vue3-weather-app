@@ -1,0 +1,13 @@
+POST https://places-dsn.algolia.net/1/places/query
+Content-Type: application/json
+
+{
+   "query": "Istanbul",
+   "hitsPerPage": 5,
+   "language": "en",
+   "type": "city"
+}
+
+###
+
+GET https://api.openweathermap.org/data/2.5/weather?q=%C4%B0zmit&appid=5b4ccfb95c169978d96d5dbd058f2da8
